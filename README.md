@@ -17,7 +17,7 @@ Would you like to look at the sourcecode of the Change My Mind project? Clone th
 
 ## Support
 Reach out to me 
-* Website [lottearnoldussen.com]
+* Website [lottearnoldussen.com](https://www.lottearnoldussen.com/#/)
 
 ## License
 Copyright 2020 ©ChangeMyMind
