@@ -9,7 +9,7 @@ Would you like to look at the sourcecode of the Change My Mind project? Clone th
 
 ## Technologies
 * HTML 5
-* CSS
+* SCSS
 * JavaScript
 
 ## Authors
