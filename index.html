@@ -21,3 +21,19 @@
       </section>
   </body>
 </html>
+
+<script>
+  var contentData = [
+    {
+      'description':'Hi, I am Jake. I am one of the 300.000 people living in the Netherlands that have a visual impairment.',
+    },
+  ]
+
+  var htmlText = contentData.map(function(content){
+    return `
+      <p>${content.description}</p>
+    `;
+  });
+  
+  $('.c-card__text').append(htmlText);
+</script>
