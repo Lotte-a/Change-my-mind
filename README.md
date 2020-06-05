@@ -11,6 +11,7 @@ Would you like to look at the sourcecode of the Change My Mind project? Clone th
 * HTML 5
 * SCSS
 * JavaScript
+* JSON
 
 ## Authors
 * Lotte Arnoldussen - development and illustrations
