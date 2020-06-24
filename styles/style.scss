@@ -1,17 +1,15 @@
-html, body, section {
-    height: 100%;
 @import 'imports';
 @import 'variables';
+
+* {
     margin: 0;
-    color: #1e2b45;
-    font-family: "HK concentrate";
-    font-size: 1.1em;
-    border: 0;
+    padding: 0;
 }
 
-div {
-    display: flex;
-    flex-direction: column;
+html, body, section {
+    color: $body-color;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
 }
 
 @import 'imports';
