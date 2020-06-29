@@ -4,44 +4,167 @@
 /*----------------------------------------------------------------------------*\
     #COMPONENTS CARDS
 \*----------------------------------------------------------------------------*/
-.c-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #cce7e8;
-  width: 100%;
+.c-cards__image-1-1 {
+  display: block;
+  width: 35%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 80px;
 }
 
-.c-card__image {
+.c-cards__image-1-2, .c-cards__image-1-3 {
+  position: absolute;
+  display: block;
+}
+
+.c-cards__image-0-1 {
+  width: 22%;
+  margin-top: -30px;
+  margin-left: 100px;
+}
+
+.c-cards__image-1-2 {
+  width: 15%;
+  margin-top: 20px;
+}
+
+.c-cards__image-2-1 {
+  margin-top: 1px;
+}
+
+.c-cards__image-1-3 {
+  width: 20%;
+  right: 120px;
+  bottom: 10%;
+}
+
+.c-cards__image--4-2 {
+  position: absolute;
+  display: block;
+  width: 55%;
+  margin-top: 26%;
+  margin-left: 260px;
+  z-index: 1;
+}
+
+.c-cards__image--4-1 {
+  position: relative;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.c-cards .c-cards-0, .c-cards .c-cards-1, .c-cards .c-cards-2, .c-cards .c-cards-3, .c-cards .c-cards-4 {
+  background-size: cover;
+}
+
+.c-cards-0 {
+  background: url("../images/background/bg-0.jpg") no-repeat center center fixed;
+}
+
+.c-cards-1 {
+  background: url("../images/background/bg-1.jpg") no-repeat center center fixed;
+}
+
+.c-cards-2 {
+  background: url("../images/background/bg-2.jpg") no-repeat center center fixed;
+}
+
+.c-cards-3 {
+  background: url("../images/background/bg-3.jpg") no-repeat center center fixed;
+}
+
+.c-cards-4 {
+  background: url("../images/background/bg-4.jpg") no-repeat center center fixed;
+}
+
+.c-cards__title {
+  display: block;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 3.7em;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.c-cards__subtitle {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.c-cards__image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  height: 100%;
   padding-left: 8.750em;
   padding-right: 4.375em;
 }
 
-.c-card__image img {
+.c-cards__image img {
   width: 100%;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
 
-.c-card__text {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  padding-right: 8.750em;
-  padding-left: 4.375em;
+.c-cards__instruction {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.c-cards__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  line-height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: #3d231b;
+}
+
+.c-cards--padding-left {
+  padding-left: 8.750em;
+  padding-right: 4.375em;
+}
+
+.c-cards--padding-right {
+  padding-left: 4.375em;
+  padding-right: 8.750em;
+}
+
+.c-cards__button--donate {
+  background: #9755af;
+  border-radius: 0;
+  color: white;
+  display: inline-block;
+  font-size: 1.6rem;
+  height: 40px;
+  line-height: 50px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  width: 150px;
+  border-radius: 5px 5px 0 0;
+}
+
+/*----------------------------------------------------------------------------*\
+    MEDIA QUERIES
+\*----------------------------------------------------------------------------*/
+@media (max-width: 1200px) {
+  .c-cards, #fp-nav {
+    display: none;
+  }
 }
 /*# sourceMappingURL=imports.css.map */
