@@ -4,6 +4,32 @@
 /*----------------------------------------------------------------------------*\
     #COMPONENTS CARDS
 \*----------------------------------------------------------------------------*/
+.c-cards__image-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #3d231b;
+  margin-left: 18%;
+  min-height: 20px;
+}
+
+.c-cards__tekst--contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  font-size: 0.65em;
+}
+
+.c-cards__image--8-1 {
+  width: 100%;
+}
+
+.c-cards__image--3-1 {
+  width: 100%;
+  margin-top: -15%;
+}
+
 .c-cards__image-1-1 {
   display: block;
   width: 35%;
@@ -40,10 +66,8 @@
 
 .c-cards__image--4-2 {
   position: absolute;
-  display: block;
-  width: 55%;
-  margin-top: 26%;
-  margin-left: 260px;
+  width: 96%;
+  margin-top: 20%;
   z-index: 1;
 }
 
@@ -53,7 +77,23 @@
   margin-top: 20%;
 }
 
-.c-cards .c-cards-0, .c-cards .c-cards-1, .c-cards .c-cards-2, .c-cards .c-cards-3, .c-cards .c-cards-4 {
+.c-cards__image--5-1 {
+  margin-top: 40%;
+  width: 60%;
+  margin-left: 50px;
+}
+
+.c-cards__image--6-1 {
+  width: 100%;
+  margin-top: 30%;
+}
+
+.c-cards__image--7-1 {
+  width: 100%;
+  margin-top: 20%;
+}
+
+.c-cards .c-cards-0, .c-cards .c-cards-1, .c-cards .c-cards-2, .c-cards .c-cards-3, .c-cards .c-cards-4, .c-cards .c-cards-5, .c-cards .c-cards-6, .c-cards .c-cards-7, .c-cards .c-cards-8 {
   background-size: cover;
 }
 
@@ -75,6 +115,46 @@
 
 .c-cards-4 {
   background: url("../images/background/bg-4.jpg") no-repeat center center fixed;
+}
+
+.c-cards-5 {
+  background: url("../images/background/bg-5.jpg") no-repeat center center fixed;
+}
+
+.c-cards-6 {
+  background: url("../images/background/bg-6.jpg") no-repeat center center fixed;
+}
+
+.c-cards-6 a {
+  color: #f1a845;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.c-cards-6 a:hover {
+  color: #e55f3f;
+  text-decoration: underline;
+}
+
+.c-cards-7 {
+  background: url("../images/background/bg-7.jpg") no-repeat center center fixed;
+}
+
+.c-cards-8 {
+  background: url("../images/background/bg-8.jpg") no-repeat center center fixed;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.c-cards-8 a {
+  color: #f1a845;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.c-cards-8 a:hover {
+  color: #e55f3f;
+  text-decoration: underline;
 }
 
 .c-cards__title {
@@ -105,6 +185,18 @@
   width: 100%;
   -ms-flex-item-align: end;
       align-self: flex-end;
+}
+
+.c-cards__contact {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #1e2b45;
+}
+
+.c-cards__data {
+  background-color: red;
+  width: 37%;
+  margin: 0 auto;
+  margin-top: 35px;
 }
 
 .c-cards__instruction {
@@ -325,6 +417,85 @@
   }
 }
 
+.c-accordion {
+  margin-top: 30px;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 20px;
+  width: 100%;
+}
+
+.c-accordion__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #ff0000;
+}
+
+.c-accordion__btn {
+  margin-top: 50px;
+  background-color: #8cc63f;
+  color: white;
+  border: 1px solid #1e2b45 !important;
+  padding: 6px 15px !important;
+}
+
+.c-accordion h3 {
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.c-accordion__item {
+  border-top: 1px solid white;
+  cursor: pointer;
+}
+
+.c-accordion__item:last-child {
+  border-bottom: 1px solid white;
+}
+
+.c-accordion__item-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -4px;
+  margin-bottom: 2px;
+}
+
+.c-accordion__item i {
+  margin-top: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c-accordion__item p {
+  display: none;
+  font-size: 0.6em;
+  padding-left: 15px;
+}
+
+.c-accordion__item pre {
+  display: none;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.c-accordion__item-active i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+xmp {
+  white-space: pre-wrap;
+}
+
+.c-cards-3 .c-cards__text {
+  margin-top: 60px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -365,5 +536,9 @@ html a:hover, body a:hover, section a:hover {
 .c-message__image {
   margin-top: 30px;
   width: 40%;
+}
+
+.fa-handshake-o {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
