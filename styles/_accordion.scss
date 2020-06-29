@@ -1,0 +1,73 @@
+.c-accordion {
+	margin-top:30px;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.8em;
+        color: #ff0000;
+    }
+
+    &__btn {
+        margin-top: 50px;
+        background-color: #8cc63f;
+        color: white;
+        border: 1px solid #1e2b45 !important;
+        padding: 6px 15px !important;
+    }
+
+    h3 {
+        font-size: 0.6em;
+        font-weight: 600;
+    }
+
+    &__item {
+        border-top: 1px solid white;
+        cursor: pointer;
+
+        &:last-child {
+            border-bottom: 1px solid white;
+        }
+
+        &-top {
+            display: flex;
+            justify-content: space-between;
+            margin-top:-4px;
+            margin-bottom:2px;
+        }
+
+        i {
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        p {
+            display: none;
+            font-size: 0.6em;
+            padding-left:15px;
+        }
+        pre {
+            display:none;
+            width:90%;
+            margin-left:15px;
+        }
+
+        &-active {
+            i {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+xmp {white-space: pre-wrap; }
+
+.c-cards-3 {
+    .c-cards__text {
+        margin-top:60px;
+    }
+}
