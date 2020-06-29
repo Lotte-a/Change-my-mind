@@ -24,12 +24,12 @@ new fullpage('.c-cards', {
 
         if(destination.index === 2) {
             const image2_1 = section.querySelectorAll(".c-cards__image-2-1");
-            tl.fromTo(image2_1, 0.6, { x:-590 }, { x:0 }, "-=0.5");
+            tl.fromTo(image2_1, 0.6, { x:-700 }, { x:0 }, "-=0.5");
         }
 
         if(destination.index === 3) {
             const image3_1 = section.querySelectorAll(".c-cards__image--3-1");
-            tl.fromTo(image3_1, 0.6, { x:-600 }, { x:0 }, "-=0.2");
+            tl.fromTo(image3_1, 0.6, { x:-700 }, { x:0 }, "-=0.2");
 
             const accordion = section.querySelectorAll(".c-accordion__container");
             tl.fromTo(accordion, 1.5, { opacity: 0 }, { opacity: 1 },"-=1.9");
@@ -39,8 +39,8 @@ new fullpage('.c-cards', {
             const image4_1 = section.querySelectorAll(".c-cards__image--4-1");
             const image4_2 = section.querySelectorAll(".c-cards__image--4-2");
             
-            tl.fromTo(image4_1, 0.6, { x:-600 }, { x:0 });
-            tl.fromTo(image4_2, 0.6, { x:-600 }, { x:0 },"-=0.6")
+            tl.fromTo(image4_1, 0.6, { x:-700 }, { x:0 });
+            tl.fromTo(image4_2, 0.6, { x:-700 }, { x:0 },"-=0.6")
             tl.fromTo(image4_2, 0.1, { opacity:0 }, { opacity:1 },"-=0.6");
 
             tl.fromTo(image4_1, 1, { width:'100%' }, { width:'88%' });
@@ -54,19 +54,19 @@ new fullpage('.c-cards', {
 
         if(destination.index === 5) {
             const image5_1 = section.querySelectorAll(".c-cards__image--5-1");
-            tl.fromTo(image5_1, 0.6, { x:-600 }, { x:0 });
+            tl.fromTo(image5_1, 0.6, { x:-700 }, { x:0 });
             tl.fromTo(image5_1, 0.8, { width:'60%' }, { width:'100%' },"=-0.1");
             tl.fromTo(image5_1, 0.8, { y:'40%' }, { y:'-30%' }, "-=0.8");
         }
 
         if(destination.index === 6) {
             const image6_1 = section.querySelectorAll(".c-cards__image--6-1");
-            tl.fromTo(image6_1, 0.6, { x:-600 }, { x:0 });
+            tl.fromTo(image6_1, 0.6, { x:-700 }, { x:0 });
         }
 
         if(destination.index === 7) {
             const image7_1 = section.querySelectorAll(".c-cards__image--7-1");
-            tl.fromTo(image7_1, 0.6, { x:-600 }, { x:0 });
+            tl.fromTo(image7_1, 0.6, { x:-700 }, { x:0 });
         }
 
         if(destination.index === 8) {
