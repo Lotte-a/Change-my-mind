@@ -131,7 +131,7 @@
   text-decoration: underline;
 }
 
-.c-cards-6 a:hover {
+.c-cards-6 a:hover, .c-cards-6 a:active, .c-cards-6 a:focus {
   color: #e55f3f;
   text-decoration: underline;
 }
@@ -152,7 +152,7 @@
   text-decoration: underline;
 }
 
-.c-cards-8 a:hover {
+.c-cards-8 a:hover, .c-cards-8 a:active, .c-cards-8 a:focus {
   color: #e55f3f;
   text-decoration: underline;
 }
@@ -511,7 +511,7 @@ html a, body a, section a {
   text-decoration: none;
 }
 
-html a:hover, body a:hover, section a:hover {
+html a:hover, html a:active, html a:focus, body a:hover, body a:active, body a:focus, section a:hover, section a:active, section a:focus {
   text-decoration: none;
   color: white;
 }

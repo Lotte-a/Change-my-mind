@@ -131,7 +131,7 @@
   text-decoration: underline;
 }
 
-.c-cards-6 a:hover {
+.c-cards-6 a:hover, .c-cards-6 a:active, .c-cards-6 a:focus {
   color: #e55f3f;
   text-decoration: underline;
 }
@@ -152,7 +152,7 @@
   text-decoration: underline;
 }
 
-.c-cards-8 a:hover {
+.c-cards-8 a:hover, .c-cards-8 a:active, .c-cards-8 a:focus {
   color: #e55f3f;
   text-decoration: underline;
 }
