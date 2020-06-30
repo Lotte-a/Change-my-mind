@@ -251,6 +251,11 @@
   border-radius: 5px 5px 0 0;
 }
 
+.cards-solution {
+  display: none;
+  opacity: hidden;
+}
+
 /*----------------------------------------------------------------------------*\
     MEDIA QUERIES
 \*----------------------------------------------------------------------------*/
@@ -474,7 +479,7 @@
 .c-accordion__item p {
   display: none;
   font-size: 0.6em;
-  padding-left: 15px;
+  padding: 15px;
 }
 
 .c-accordion__item pre {
@@ -486,6 +491,14 @@
 .c-accordion__item-active i {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.cards-solution .c-accordion {
+  border: 1px solid #8cc63f;
+}
+
+.cards-solution .c-accordion__title {
+  color: #8cc63f;
 }
 
 xmp {
