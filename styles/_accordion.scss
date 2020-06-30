@@ -48,7 +48,7 @@
         p {
             display: none;
             font-size: 0.6em;
-            padding-left:15px;
+            padding:15px;
         }
         pre {
             display:none;
@@ -60,6 +60,16 @@
             i {
                 transform: rotate(180deg);
             }
+        }
+    }
+}
+
+.cards-solution {
+    .c-accordion {
+        border: 1px solid #8cc63f;
+
+        &__title {
+            color: #8cc63f;
         }
     }
 }
