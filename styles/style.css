@@ -4,6 +4,7 @@
 /*----------------------------------------------------------------------------*\
     #COMPONENTS CARDS
 \*----------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .c-cards__image-contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -516,7 +517,7 @@ xmp {
 
 html, body, section {
   color: #1e2b45;
-  font-family: "HK concentrate";
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5em;
 }
 
