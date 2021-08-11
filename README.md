@@ -2,7 +2,7 @@
 A scroll animation which makes developers aware about the importance of developing accessible websites.
 
 ## Live demo
-Change My Mind is not online available yet
+[Website Change My Mind](https://changemymind.netlify.app/)
 
 ## Installation
 Would you like to look at the sourcecode of the Change My Mind project? Clone the repository and run the code.
@@ -21,4 +21,4 @@ Reach out to me
 * Website [lottearnoldussen.com](https://www.lottearnoldussen.com/#/)
 
 ## License
-Copyright 2020 ©ChangeMyMind
+Copyright 2021 ©ChangeMyMind
