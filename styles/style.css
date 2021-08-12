@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------*\
-    #COMPONENTS (alphabetical)
+    #IMPORTS
 \*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*\
     #COMPONENTS CARDS
@@ -9,7 +9,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #3d231b;
+  color: #f1a845;
   margin-left: 18%;
   min-height: 20px;
 }
@@ -94,7 +94,7 @@
   margin-top: 20%;
 }
 
-.c-cards .c-cards-0, .c-cards .c-cards-1, .c-cards .c-cards-2, .c-cards .c-cards-3, .c-cards .c-cards-4, .c-cards .c-cards-5, .c-cards .c-cards-6, .c-cards .c-cards-7, .c-cards .c-cards-8 {
+.c-cards .c-cards--fullBgImage {
   background-size: cover;
 }
 
@@ -126,13 +126,13 @@
   background: url("../images/background/bg-6.jpg") no-repeat center center fixed;
 }
 
-.c-cards-6 a {
+.c-cards-6 a, .c-cards-8 a {
   color: #f1a845;
   font-weight: bold;
   text-decoration: underline;
 }
 
-.c-cards-6 a:hover, .c-cards-6 a:active, .c-cards-6 a:focus {
+.c-cards-6 a:hover, .c-cards-6 a:active, .c-cards-6 a:focus, .c-cards-8 a:hover, .c-cards-8 a:active, .c-cards-8 a:focus {
   color: #e55f3f;
   text-decoration: underline;
 }
@@ -147,23 +147,12 @@
   text-align: center;
 }
 
-.c-cards-8 a {
-  color: #f1a845;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.c-cards-8 a:hover, .c-cards-8 a:active, .c-cards-8 a:focus {
-  color: #e55f3f;
-  text-decoration: underline;
-}
-
 .c-cards__title {
   display: block;
   text-align: center;
   margin-top: 90px;
   font-size: 3.7em;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .c-cards__subtitle {
@@ -242,10 +231,8 @@
   right: 0;
   text-align: center;
   text-transform: uppercase;
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   width: 150px;
@@ -435,7 +422,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.8em;
-  color: #ff0000;
+  color: red;
 }
 
 .c-accordion__btn {

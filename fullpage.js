@@ -1,6 +1,5 @@
 new fullpage('.c-cards', {
     autoScrolling: true,
-    // navigation: true,
 
     onLeave: (origin,destination,direction) => {
         const section = destination.item;

@@ -4,7 +4,7 @@
     position: relative;
     margin: 0 auto;
     margin-top: 100px;
-    background: #1e2b45 linear-gradient(transparent 0%, transparent 50%,#a9c6d9 50%,#a9c6d9 100%);
+    background: $color-dark-blue linear-gradient(transparent 0%, transparent 50%,$color-light-blue 50%,$color-light-blue 100%);
     background-size: 100% 200%;
     border-radius: 100px;
     animation: colorSlide 8s linear infinite;
@@ -24,13 +24,13 @@
 .c-cards__mouse:before{
   width: 47px;
   height: 83px;
-  background-color: white;
+  background-color: $color-white;
   border-radius: 100px;
 }
 
 .c-cards__mouse:after{
     content: "";
-    background: #1e2b45;
+    background: $color-dark-blue;
     width: 6px;
     height: 14px;
     top: -35px;
@@ -55,38 +55,38 @@
     background-position: 0% 0%;
   }
   21% {
-    background-color: #1e2b45;
+    background-color: $color-dark-blue;
   }
   29.99% {
-    background-color: #a9c6d9;
+    background-color: $color-light-blue;
     background-position: 0% 0%;
   }
   30% {
-    background-color: #1e2b45;
+    background-color: $color-dark-blue;
     background-position: 0% 100%;
   }
   50% {
     background-position: 0% 0%;
   }
   51% {
-    background-color: #1e2b45;
+    background-color: $color-dark-blue;
   }
   59% {
-    background-color: #a9c6d9;
+    background-color: $color-light-blue;
     background-position: 0% 0%;
   }
   60% {
-    background-color: #1e2b45;
+    background-color: $color-dark-blue;
     background-position: 0% 100%;
   }
   80% {
     background-position: 0% 0%;
   }
   81% {
-    background-color: #1e2b45;
+    background-color: $color-dark-blue;
   }
   90%, 100% {
-    background-color: #a9c6d9;
+    background-color: $color-light-blue;
   }
 }
 

@@ -1,6 +1,6 @@
 .c-accordion {
-	margin-top:30px;
-    border: 1px solid red;
+	margin-top: 30px;
+    border: 1px solid $color-red;
     border-radius: 4px;
     padding: 20px;
     width: 100%;
@@ -9,14 +9,14 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 0.8em;
-        color: #ff0000;
+        color: $color-red;
     }
 
     &__btn {
         margin-top: 50px;
-        background-color: #8cc63f;
-        color: white;
-        border: 1px solid #1e2b45 !important;
+        background-color: $color-green;
+        color: $color-white;
+        border: 1px solid $color-dark-blue !important;
         padding: 6px 15px !important;
     }
 
@@ -26,18 +26,18 @@
     }
 
     &__item {
-        border-top: 1px solid white;
+        border-top: 1px solid $color-white;
         cursor: pointer;
 
         &:last-child {
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid $color-white;
         }
 
         &-top {
             display: flex;
             justify-content: space-between;
-            margin-top:-4px;
-            margin-bottom:2px;
+            margin-top: -4px;
+            margin-bottom: 2px;
         }
 
         i {
@@ -48,12 +48,12 @@
         p {
             display: none;
             font-size: 0.6em;
-            padding:15px;
+            padding: 15px;
         }
         pre {
-            display:none;
-            width:90%;
-            margin-left:15px;
+            display: none;
+            width: 90%;
+            margin-left: 15px;
         }
 
         &-active {
@@ -66,15 +66,15 @@
 
 .cards-solution {
     .c-accordion {
-        border: 1px solid #8cc63f;
+        border: 1px solid $color-green;
 
         &__title {
-            color: #8cc63f;
+            color: $color-green;
         }
     }
 }
 
-xmp {white-space: pre-wrap; }
+xmp { white-space: pre-wrap; }
 
 .c-cards-3 {
     .c-cards__text {

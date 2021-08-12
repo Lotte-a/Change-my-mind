@@ -2,17 +2,16 @@
     #COMPONENTS CARDS
 \*----------------------------------------------------------------------------*/
 
-
 .c-cards__image-contact{
     display: flex;
-    color: #3d231b;
-    margin-left:18%;
-    min-height:20px;
+    color: $color-light-orange;
+    margin-left: 18%;
+    min-height: 20px;
 }
 
 .c-cards__tekst--contact {
     display: flex;
-    text-align:left;
+    text-align: left;
     font-size: 0.65em;
 }
 
@@ -21,8 +20,8 @@
 }
 
 .c-cards__image--3-1 {
-    width:100%;
-    margin-top:-15%;
+    width: 100%;
+    margin-top: -15%;
 }
 
 .c-cards__image-1-1 {
@@ -30,7 +29,7 @@
     width: 35%;
     margin: 0 auto;
     position: relative;
-    margin-top:80px;
+    margin-top: 80px;
 }
 
 .c-cards__image-1-2, .c-cards__image-1-3 {
@@ -45,23 +44,23 @@
 }
 
 .c-cards__image-1-2 {
-    width:15%;
+    width: 15%;
     margin-top: 20px;
 }
 
 .c-cards__image-2-1 {
-    margin-top:1px;
+    margin-top: 1px;
 }
 
 .c-cards__image-1-3 {
-    width:20%;
-    right:120px;
+    width: 20%;
+    right: 120px;
     bottom: 10%;
 }
 
 .c-cards__image--4-2 {
     position: absolute;
-    width:96%;
+    width: 96%;
     margin-top: 20%;
     z-index: 1;
 }
@@ -89,8 +88,7 @@
 }
 
 .c-cards {
-
-    .c-cards-0, .c-cards-1, .c-cards-2, .c-cards-3, .c-cards-4, .c-cards-5, .c-cards-6, .c-cards-7, .c-cards-8 {
+    .c-cards--fullBgImage {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -118,15 +116,17 @@
     }
     &-6 {
         background: url("../images/background/bg-6.jpg") no-repeat center center fixed;
+    }
 
+    &-6, &-8 {
         a {
-            color: #f1a845;
+            color: $color-light-orange;
             font-weight: bold;
             text-decoration: underline;
         }
 
         a:hover, a:active, a:focus {
-            color:#e55f3f;
+            color: $color-dark-orange;
             text-decoration: underline;
         }
     }
@@ -137,34 +137,22 @@
 
     &-8 {
         background: url("../images/background/bg-8.jpg") no-repeat center center fixed;
-
         padding-top: 90px;
         text-align: center;
-
-        a {
-            color: #f1a845;
-            font-weight: bold;
-            text-decoration: underline;
-        }
-
-        a:hover, a:active, a:focus {
-            color:#e55f3f;
-            text-decoration: underline;
-        }
     }
 
     &__title {
         display: block;
-        text-align:center;
+        text-align: center;
         margin-top: 90px;
         font-size: 3.7em;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $font-family-title;
     }
 
     &__subtitle {
-        margin-top:20px;
+        margin-top: 20px;
         display: block;
-        text-align:center;
+        text-align: center;
         font-size: 0.8em;
     }
 
@@ -182,19 +170,19 @@
 
     &__contact {
         padding-bottom: 90px;
-        border-bottom: 1px solid #1e2b45;
+        border-bottom: 1px solid $color-dark-blue;
     }
 
     &__data {
-        background-color:red;
+        background-color: $color-red;
         width: 37%;
-        margin:0 auto;
+        margin: 0 auto;
         margin-top: 35px;
     }
 
     &__instruction {
-        margin-top:200px;
-        text-align:center;
+        margin-top: 200px;
+        text-align: center;
     }
 
     &__text {
@@ -202,7 +190,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        color: #3d231b;
+        color: $color-brown;
     }
 
     &--padding-left {
@@ -216,22 +204,23 @@
     }
 
     &__button--donate {
-        background: #9755af;
+        background: $color-purple;
         border-radius: 0;
-        color: white;
-        display:inline-block;
+        color: $color-white;
+        display: inline-block;
         font-size: 1.6rem;
         height: 40px;
         line-height: 50px;
         position: fixed;
-        z-index:1;
+        z-index: 1;
         right: 0;
         text-align: center;
         text-transform: uppercase;
-        -moz-transform:rotate(-90deg);
-        -ms-transform:rotate(-90deg);
-        -o-transform:rotate(-90deg);
-        -webkit-transform:rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
         transform-origin: bottom right;
         width: 150px;
         border-radius: 5px 5px 0 0;
@@ -242,8 +231,6 @@
     display: none;
     opacity: hidden;
 }
-
-
 
 /*----------------------------------------------------------------------------*\
     MEDIA QUERIES

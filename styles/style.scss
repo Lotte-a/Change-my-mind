@@ -1,5 +1,4 @@
 @import 'imports';
-@import 'variables';
 @import 'mouseAnimation';
 @import 'accordion';
 
@@ -19,7 +18,7 @@ html, body, section {
 
     a:hover, a:active, a:focus {
         text-decoration: none;
-        color: white;
+        color: $color-white;
     }
 }
 
@@ -31,7 +30,7 @@ html, body, section {
     text-align: center;
     font-weight: 200;
     vertical-align: center;
-    position:relative;
+    position: relative;
     margin-top: 70px;
     padding: 30px;
 
@@ -40,8 +39,8 @@ html, body, section {
     }
 
     &__image {
-        margin-top:30px;
-        width:40%;
+        margin-top: 30px;
+        width: 40%;
     }
 }
 
