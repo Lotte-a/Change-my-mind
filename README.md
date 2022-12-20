@@ -1,5 +1,10 @@
 # Change My Mind
-A scroll animation which makes developers aware about the importance of developing accessible websites.
+|     |     |
+| --- | --- |
+| **College** | Creative Media and Game Technologisch | Hogeschool Rotterdam |
+| **Duration** | 3 weeks |
+
+A scroll animation website I've created for a college assignment, to make developers aware about the importance of developing accessible websites.
 
 ## Live demo
 [Website Change My Mind](https://changemymind.netlify.app/)
@@ -12,6 +17,8 @@ Would you like to look at the sourcecode of the Change My Mind project? Clone th
 * SCSS
 * JavaScript
 * JSON
+* Fullpage (plugin)
+* Anime.js
 
 ## Authors
 * Lotte Arnoldussen - development and illustrations
