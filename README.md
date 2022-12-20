@@ -2,7 +2,7 @@
 |     |     |
 | --- | --- |
 | **College** | Creative Media and Game Technologisch | Hogeschool Rotterdam |
-| **Duration** | 3 weeks |
+| **Duration** | Juni 2020 (3 weeks) |
 
 A scroll animation website I've created for a college assignment, to make developers aware about the importance of developing accessible websites.
 
