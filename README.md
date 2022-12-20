@@ -16,7 +16,6 @@ Would you like to look at the sourcecode of the Change My Mind project? Clone th
 * HTML 5
 * SCSS
 * JavaScript
-* JSON
 * Fullpage (plugin)
 * Anime.js
 
